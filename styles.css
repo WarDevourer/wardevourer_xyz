@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(47, 49, 54);
+}
+
+p1 {
+  color: rgb(38, 139, 200);
+  font-family: monospace;
+  font-size: 120%;
+  top: 0px;
+  left: 0px;
+}
+
+p2 {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 120%;
+}
+
+h1 {
+  color: rgb(185, 187, 190);
+  font-family: monospace;
+  font-size: 120%;
+}
+
+h2 {
+  color: rgb(38, 139, 200);
+  font-family: monospace;
+  font-size: 90%;
+}
+
+
+dd {
+  color: rgb(38, 139, 200);
+  font-family: monospace;
+  font-size: 120%;
+}
+
+dt {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 120%;
+}
+
+#main_block {
+  display: block; /* Useless, divs are display:block */
+  width: 100%;    /* Useless, display:block elements are width:100% by default */
+  height: 100%;   /* Fairly useless now, should take children's height */
+  font-size:0;    /* Force space between inline-block elements to be 0 */
+}
+
+#left_frame,#right_frame {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.inDev {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  width: 100%;
+  font-family: monospace;
+  font-size: 35px;
+  line-height: 0px;
+  color: white;
+  font-weight: 1;
+  text-align: center;
+}
+
+.thanks {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 0px;
+  color: gray;
+  font-weight: 1;
+  text-align: center;
+}
+
+#footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 60px;   /* Height of the footer */
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  background-color: #222222;
+  font-family: monospace;
+  color: darkgray;
+  font-size: 25px;
+  font-weight: 1;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.topbarbutton {
+  position: relative;
+  height: 100%;
+  width: 150px;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  background-color: #222222;
+  font-family: monospace;
+  color: darkgray;
+  font-size: 25px;
+  font-weight: 1;
+  box-sizing: border-box;
+}
